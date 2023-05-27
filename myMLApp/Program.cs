@@ -2,7 +2,7 @@
 
 var sampleData = new SentimentModel.ModelInput()
 {
-    Col0 = "Bad food"
+    Col0 = "The crust is not good"
 };
 
 var result = SentimentModel.Predict(sampleData);
